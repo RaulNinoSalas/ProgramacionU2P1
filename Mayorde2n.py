@@ -1,8 +1,8 @@
-a=raw_input("Introduce un número,")
-b=raw_input("Introduce un número,")
+a=raw_input("Introduce un nÃºmero,")
+b=raw_input("Introduce un nÃºmero,")
 if a>b:
-    print a,("es mayor que"),b
-if b>a:
     print a,("es menor que"),b
+if a<b:
+    print a,("es mayor que"),b
 if a==b:
     print a,("es igual que"),b
